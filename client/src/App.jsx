@@ -5,7 +5,7 @@ import Nav from './Nav';
 const PageStyle = styled.div`
 height: 100%;
 background: #28292B;
-  color: white;
+color: white;
 `;
 
 const App = () => {
