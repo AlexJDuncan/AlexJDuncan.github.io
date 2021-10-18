@@ -1,0 +1,8 @@
+background-color: #52275C
+darkBackground-color: #28292b
+color: #CA61E1
+additionalColors {
+    1: #B81DDB
+    2: #9F19BD
+    3: #4D0C5C
+}
