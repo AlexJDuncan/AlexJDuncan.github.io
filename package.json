@@ -1,0 +1,39 @@
+{
+  "name": "monkeymedic26.github.io",
+  "version": "1.0.0",
+  "description": "an early portfolio website to highlight myself, my engineering work, and my graphic design work.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server",
+    "watch": "webpack -w",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monkeymedic26/monkeymedic26.github.io"
+  },
+  "keywords": [],
+  "author": "Alex Duncan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monkeymedic26/monkeymedic26.github.io/issues"
+  },
+  "homepage": "https://github.com/monkeymedic26/monkeymedic26.github.io#readme",
+  "dependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "eslint": "^8.0.1",
+    "express": "^4.17.1",
+    "file-loader": "^6.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.1",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0"
+  }
+}
