@@ -52,7 +52,7 @@ const Home = () => {
       </Intro>
       <BioSection>
       <BioPic src="https://i.ibb.co/RBG42fN/1516873872556.jpg" alt="1516873872556" border="0" />
-        <Bio>My Name is Alex Duncan. I am a full stack engineer that takes pride in everything I do. That includes getting stuck in my code. Getting stuck gives me the opportuniity learn even more and expand my knowledge of the particular problem area. My passion is frontend the of a project as I can get to utilize my Graphic Design background. I love bringing my projects to life on the client facing side. My dream is to work in AR/VR some day. I just think it's amazing the things we can already do in thos fields and I want to be part of the innovation that is still to come.</Bio>
+        <Bio>My Name is Alex Duncan. I am a full stack engineer that takes pride in everything I do. That includes getting stuck in my code. Getting stuck gives me the opportunity to learn even more and expand my knowledge of the particular problem area. My passion is frontend projects as I get to utilize my Graphic Design background. I love bringing my projects to life on the client facing side.<br /> My dream is to work in AR/VR some day. I just think it's amazing the things we can already do in those fields and I want to be part of the innovation that is still to come. My interest in this field mostly stems from my training in 3D modeling and sculpture.  I love working on projects that force me to think outside what is right in front of me and see the bigger picture.</Bio>
       </BioSection>
     </CompStyle>
   )
