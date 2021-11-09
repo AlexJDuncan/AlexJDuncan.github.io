@@ -3,20 +3,36 @@ import styled from 'styled-components';
 
 const BarStyle = styled.div`
   background: #52275C;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+`;
+
+const Copyright = styled.p`
+  font-size: 2rem;
+  color: #CA61E1;
+`;
+
+const Links = styled.a`
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
 `;
 
 const BottomBar = () => {
   return(
     <BarStyle>
-      <a href="https://github.com/monkeymedic26" target="_blank">
+      <Links href="https://github.com/monkeymedic26" target="_blank">
         <img src="https://img.icons8.com/material-outlined/96/000000/github.png"/>
-      </a>
-      <a href="https://www.linkedin.com/in/alexjduncan/" target="_blank">
+      </Links>
+      <Links href="https://www.linkedin.com/in/alexjduncan/" target="_blank">
         <img src="https://img.icons8.com/ios-glyphs/90/000000/linkedin.png"/>
-      </a>
-      <a href="mailto: alexduncan1@outlook.com" target="_blank">
+      </Links>
+      <Links href="mailto: alexduncan1@outlook.com" target="_blank">
         <img src="https://img.icons8.com/ios-glyphs/90/000000/new-post.png"/>
-      </a>
+      </Links>
+      <Copyright>&copy; Copyright Alex Duncan 2021</Copyright>
     </BarStyle>
   )
 }
