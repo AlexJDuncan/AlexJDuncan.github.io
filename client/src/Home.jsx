@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import Army from "./images/Army.png";
 
 const CompStyle = styled.div`
   background: #28292B;
@@ -66,6 +67,7 @@ const Home = () => {
       </BioSection>
       <AchievementsStyle>
         <AchievementsTitle>Achievements</AchievementsTitle>
+        <img src={Army} alt="Army Logo" border="0"></img>
       </AchievementsStyle>
     </CompStyle>
   )
