@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Nav from './Nav';
 import Home from './Home';
+import BottomBar from './BottomBar';
 
 const PageStyle = styled.div`
 height: 100%;
@@ -14,6 +15,7 @@ const App = () => {
     <PageStyle>
       <Nav />
       <Home />
+      <BottomBar />
     </PageStyle>
   )
 }
