@@ -29,8 +29,9 @@ const BioSection = styled.div`
 `;
 
 const BioPic = styled.img`
-  width: 20%;
+  width: 25%;
   margin: 50px;
+  margin-top: 35px;
   display: inline-block;
 `;
 
@@ -38,6 +39,7 @@ const Bio = styled.p`
   color: #CA61E1;
   font-size: 2rem;
   display: inline-block;
+  vertical-align: top;
   width: 45%;
 `;
 
