@@ -8,13 +8,13 @@ const BarStyle = styled.div`
 const BottomBar = () => {
   return(
     <BarStyle>
-      <a href="https://github.com/monkeymedic26">
+      <a href="https://github.com/monkeymedic26" target="_blank">
         <img src="https://img.icons8.com/material-outlined/96/000000/github.png"/>
       </a>
-      <a href="https://www.linkedin.com/in/alexjduncan/">
+      <a href="https://www.linkedin.com/in/alexjduncan/" target="_blank">
         <img src="https://img.icons8.com/ios-glyphs/90/000000/linkedin.png"/>
       </a>
-      <a href="mailto: alexduncan1@outlook.com">
+      <a href="mailto: alexduncan1@outlook.com" target="_blank">
         <img src="https://img.icons8.com/ios-glyphs/90/000000/new-post.png"/>
       </a>
     </BarStyle>
