@@ -14,6 +14,9 @@ const BottomBar = () => {
       <a href="https://www.linkedin.com/in/alexjduncan/">
         <img src="https://img.icons8.com/ios-glyphs/90/000000/linkedin.png"/>
       </a>
+      <a href="">
+        <img src="https://img.icons8.com/ios-glyphs/90/000000/new-post.png"/>
+      </a>
     </BarStyle>
   )
 }
