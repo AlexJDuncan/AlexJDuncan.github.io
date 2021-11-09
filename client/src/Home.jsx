@@ -40,7 +40,7 @@ const Bio = styled.p`
   font-size: 2rem;
   display: inline-block;
   vertical-align: top;
-  width: 45%;
+  width: 60%;
 `;
 
 const Home = () => {
