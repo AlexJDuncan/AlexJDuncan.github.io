@@ -4,10 +4,6 @@ import Army from "./images/Army.png";
 import UNCO from "./images/UNC-Logo.png";
 import HackReactor from "./images/HackReactor.png";
 
-const CompStyle = styled.div`
-  background: white;
-`;
-
 const Intro = styled.div`
   background: #28292B;
   height: 175px;
@@ -38,7 +34,7 @@ const BioPic = styled.img`
 `;
 
 const Bio = styled.p`
-  color: #CA61E1;
+  color: Black;
   font-size: 1.5rem;
   display: inline-block;
   vertical-align: top;
@@ -67,7 +63,7 @@ const AchievementsPic = styled.img`
 
 const Home = () => {
   return (
-    <CompStyle>
+    <div>
       <Intro>
         <Name>Alex Duncan</Name>
         <Title>Software Engineer</Title>
@@ -82,7 +78,7 @@ const Home = () => {
         <AchievementsPic src={UNCO} alt="UNCO Logo" />
         <AchievementsPic src={HackReactor} alt="Hack Reactor Logo" />
       </AchievementsStyle>
-    </CompStyle>
+    </div>
   )
 }
 
