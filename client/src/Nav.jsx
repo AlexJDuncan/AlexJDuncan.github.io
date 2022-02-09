@@ -4,7 +4,7 @@ import styled from "styled-components";
 const CompStyle = styled.div`
   color: white;
   height: 100px;
-  text-align: center;
+  text-align: right;
   padding-top: 50px;
 `;
 
