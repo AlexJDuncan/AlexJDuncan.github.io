@@ -5,11 +5,11 @@ import UNCO from "./images/UNC-Logo.png";
 import HackReactor from "./images/HackReactor.png";
 
 const CompStyle = styled.div`
-  background: #28292B;
+  background: white;
 `;
 
 const Intro = styled.div`
-  background: #52275C;
+  background: #28292B;
   height: 175px;
   text-align: center;
 `;
