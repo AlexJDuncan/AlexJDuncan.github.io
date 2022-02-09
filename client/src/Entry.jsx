@@ -7,6 +7,10 @@ const Grid = styled.div`
   grid-template-rows: 1fr;
 `;
 
+const Name = styled.div`
+  grid-column: 2/3;
+`;
+
 const Letter = styled.p `
   display: inline-block;
   grid-column: 2/3;
@@ -14,6 +18,7 @@ const Letter = styled.p `
   color: #CA61E1;
   font-size: 10rem;
   margin: .5rem;
+  margin-left: 300px;
 `;
 
 const NamePart = styled.p`
@@ -27,16 +32,14 @@ const NamePart = styled.p`
 const Entry = () => {
   return (
     <Grid>
-      <div>
-
-      <Letter>A</Letter>
-      <NamePart>lex</NamePart><br />
-      </div>
-      <div>
-
-      <Letter>D</Letter>
-      <NamePart>uncan</NamePart>
-      </div>
+      <Name>
+        <Letter>A</Letter>
+        <NamePart>lex</NamePart><br />
+      </Name>
+      <Name>
+        <Letter>D</Letter>
+        <NamePart>uncan</NamePart>
+      </Name>
     </Grid>
   )
 }
