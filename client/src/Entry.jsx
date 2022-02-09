@@ -50,7 +50,7 @@ const Entry = () => {
     <Grid>
       <GridElement>
         <Letter>A</Letter>
-        <NamePart>lex</NamePart><br />
+        <NamePart>lex</NamePart>
       </GridElement>
       <GridElement>
         <Letter>D</Letter>
