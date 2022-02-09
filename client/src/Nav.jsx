@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 
 const CompStyle = styled.div`
-  background: #52275C;
+  background: black;
   color: white;
   height: 100px;
   text-align: center;
