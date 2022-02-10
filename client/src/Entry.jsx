@@ -10,7 +10,7 @@ const Grid = styled.div`
 const InnerGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 1.5rem;
+  column-gap: 2rem;
 `;
 
 const GridElement = styled.div`
@@ -21,12 +21,14 @@ const Intro1 = styled.p`
   grid-column: 1/2;
   font-size: 1.5rem;
   font-family: 'Lato', sans-serif;
+  text-align: justify;
 `;
 
 const Intro2 = styled.p`
   grid-column: 2/3;
   font-size: 1.5rem;
   font-family: 'Lato', sans-serif;
+  text-align: justify;
 `;
 
 const Letter = styled.p `
@@ -62,8 +64,8 @@ const Entry = () => {
       </GridElement>
       <GridElement>
         <InnerGrid>
-          <Intro1>Hello, World!! I am a Full-Stack Engineer and Graphic Designer.  My engineering skills apply to all aspects of web development from front-end to back-end.  Where as my design skills focus more on logos and print media. I am also well versed in designing and creating 3D models for 3D printing as well.</Intro1>
-          <Intro2>Looking for a fresh faced, new, excited, and motivated software engineer or designer? Then I am your guy! Do you want to talk about my life or work? Shoot me a message on email or give me a call! I love talking about myself and my work, or other people and their work. I also just like to shoot the breeze from time to time. Hope to hear from you soon!</Intro2>
+          <Intro1>Hello, World!! I am a Full-Stack Engineer and Graphic Designer. I earned my BA in Visual Communication and Design: Graphic Design at the University of Northern Colorado graduating May 2018.  I recieved my engineering training from Hack Reactor graduating April 2021. My engineering skills apply to all aspects of web development from front-end to back-end.  Where as my design skills focus more on logos and print media. I am also well versed in designing and creating 3D models for 3D printing.</Intro1>
+          <Intro2>Looking for a fresh faced, new, excited, and motivated software engineer or designer? Looking for a quick learner that is afraid of a challenge? Then I am that person! Do you want to talk about my life or work? Shoot me a message on email or give me a call! I love talking about myself and my work, or other people and their work. I also just like to shoot the breeze from time to time. Hope to hear from you soon!</Intro2>
         </InnerGrid>
       </GridElement>
     </Grid>
