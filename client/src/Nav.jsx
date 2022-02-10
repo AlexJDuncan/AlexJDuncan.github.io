@@ -24,9 +24,9 @@ const Nav = () => {
   return (
     <CompStyle>
       <MenuStyle>Home</MenuStyle>
-      <MenuStyle>My Skils</MenuStyle>
+      <MenuStyle>Skills</MenuStyle>
       <MenuStyle>Projects</MenuStyle>
-      <MenuStyle>Contacts</MenuStyle>
+      <MenuStyle>Contact</MenuStyle>
     </CompStyle>
   )
 }
