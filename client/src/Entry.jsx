@@ -31,6 +31,7 @@ const Letter = styled.p `
   display: inline-block;
   grid-column: 2/3;
   grid-row: 1/2;
+  font-family: 'Rowdies', cursive;
   color: #CA61E1;
   font-size: 10rem;
   margin: .5rem;
@@ -41,6 +42,7 @@ const NamePart = styled.p`
   display: inline-block;
   grid-column: 2/3;
   grid-row: 1/2;
+  font-family: 'Rowdies', cursive;
   font-size: 5rem;
   margin: .5rem;
 `;
