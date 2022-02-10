@@ -20,11 +20,13 @@ const GridElement = styled.div`
 const Intro1 = styled.p`
   grid-column: 1/2;
   font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
 `;
 
 const Intro2 = styled.p`
   grid-column: 2/3;
   font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
 `;
 
 const Letter = styled.p `
