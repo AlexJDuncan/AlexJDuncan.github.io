@@ -9,7 +9,7 @@ const BarStyle = styled.div`
 `;
 
 const Copyright = styled.p`
-  font-size: 2rem;
+  font-size: 1rem;
   color: #CA61E1;
 `;
 
