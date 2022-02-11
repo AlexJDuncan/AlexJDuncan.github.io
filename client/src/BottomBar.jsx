@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const BarStyle = styled.div`
-  background: #52275C;
+  background: #28292B;
   text-align: center;
   display: flex;
   justify-content: space-around;
