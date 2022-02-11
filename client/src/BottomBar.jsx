@@ -11,6 +11,7 @@ const BarStyle = styled.div`
 const Copyright = styled.p`
   font-size: 1rem;
   color: #CA61E1;
+  align-self: self-end;
 `;
 
 const Links = styled.a`
