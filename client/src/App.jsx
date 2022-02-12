@@ -15,7 +15,6 @@ const App = () => {
   return (
     <PageStyle>
       <Nav />
-      {/* <Home /> */}
       {/* <Entry /> */}
       <Contact />
       <BottomBar />
