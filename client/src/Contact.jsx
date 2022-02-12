@@ -1,15 +1,21 @@
 import React from "react";
 import styled from "styled-components";
 
+const Titles = styled.p`
+  font-family: 'Rowdies', cursive;
+  font-size: 2rem;
+  color: #CA61E1;
+`;
+
 const Contact = () => {
   return (
     <div>
-      <p>Phone</p>
+      <Titles>Phone</Titles>
       <p>(303) 330-5272</p>
-      <p>E-Mail</p>
+      <Titles>E-Mail</Titles>
       <p>alexduncan1@outlook.com</p>
       <p>monkeymedic26@gmail.com</p>
-      <p>GitHub</p>
+      <Titles>GitHub</Titles>
       <p>monkeymedic26</p>
     </div>
   )
