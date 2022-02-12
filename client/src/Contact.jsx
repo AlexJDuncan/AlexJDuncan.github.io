@@ -16,19 +16,24 @@ const Titles = styled.p`
   color: #CA61E1;
 `;
 
+const Info = styled.p`
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+`;
+
 const Contact = () => {
   return (
     <ContactGrid>
       <Text>
         <Titles>Phone</Titles>
-        <p>(303) 330-5272</p>
+        <Info>(303) 330-5272</Info>
         <Titles>E-Mail</Titles>
-        <p>alexduncan1@outlook.com</p>
-        <p>monkeymedic26@gmail.com</p>
+        <Info>alexduncan1@outlook.com</Info>
+        <Info>monkeymedic26@gmail.com</Info>
         <Titles>LinkedIn</Titles>
-        <p>Alex Duncan</p>
+        <Info>Alex Duncan</Info>
         <Titles>GitHub</Titles>
-        <p>monkeymedic26</p>
+        <Info>monkeymedic26</Info>
       </Text>
     </ContactGrid>
   )
