@@ -9,6 +9,8 @@ const Contact = () => {
       <p>E-Mail</p>
       <p>alexduncan1@outlook.com</p>
       <p>monkeymedic26@gmail.com</p>
+      <p>GitHub</p>
+      <p>monkeymedic26</p>
     </div>
   )
 }
