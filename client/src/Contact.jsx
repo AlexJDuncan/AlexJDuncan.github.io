@@ -15,6 +15,8 @@ const Contact = () => {
       <Titles>E-Mail</Titles>
       <p>alexduncan1@outlook.com</p>
       <p>monkeymedic26@gmail.com</p>
+      <Titles>LinkedIn</Titles>
+      <p>Alex Duncan</p>
       <Titles>GitHub</Titles>
       <p>monkeymedic26</p>
     </div>
