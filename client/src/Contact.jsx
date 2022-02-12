@@ -16,9 +16,10 @@ const Titles = styled.p`
   color: #CA61E1;
 `;
 
-const Info = styled.p`
+const Info = styled.a`
   font-family: 'Lato', sans-serif;
   font-size: 1.5rem;
+  color: white;
 `;
 
 const Contact = () => {
@@ -28,12 +29,12 @@ const Contact = () => {
         <Titles>Phone</Titles>
         <Info>(303) 330-5272</Info>
         <Titles>E-Mail</Titles>
-        <Info>alexduncan1@outlook.com</Info>
-        <Info>monkeymedic26@gmail.com</Info>
+        <Info href="mailto: alexduncan1@outlook.com" target="_blank">alexduncan1@outlook.com</Info><br />
+        <Info href="mailto: monkeymedic26@gmail.com" target="_blank">monkeymedic26@gmail.com</Info>
         <Titles>LinkedIn</Titles>
-        <Info>Alex Duncan</Info>
+        <Info href="https://www.linkedin.com/in/alexjduncan/" target="_blank">Alex Duncan</Info>
         <Titles>GitHub</Titles>
-        <Info>monkeymedic26</Info>
+        <Info href="https://github.com/monkeymedic26" target="_blank">monkeymedic26</Info>
       </Text>
     </ContactGrid>
   )
