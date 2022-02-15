@@ -3,7 +3,24 @@ import styled from "styled-components";
 
 const Skills = () => {
   return (
-    <div></div>
+    <div>
+      <span>
+        <img></img>
+        <p></p>
+      </span>
+      <span>
+        <img></img>
+        <p></p>
+      </span>
+      <span>
+        <img></img>
+        <p></p>
+      </span>
+      <span>
+        <img></img>
+        <p></p>
+      </span>
+    </div>
   )
 };
 
