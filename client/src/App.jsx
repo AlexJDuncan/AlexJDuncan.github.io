@@ -4,6 +4,7 @@ import Nav from './Nav';
 import BottomBar from './BottomBar';
 import Entry from "./Entry";
 import Contact from "./Contact";
+import Skills from "./Skills";
 
 const PageStyle = styled.div`
 height: 100%;
@@ -16,7 +17,8 @@ const App = () => {
     <PageStyle>
       <Nav />
       {/* <Entry /> */}
-      <Contact />
+      {/* <Contact /> */}
+      <Skills />
       <BottomBar />
     </PageStyle>
   )

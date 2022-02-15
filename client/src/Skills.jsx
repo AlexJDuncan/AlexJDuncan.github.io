@@ -2,7 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 const Skills = () => {
-  <div></div>
+  return (
+    <div></div>
+  )
 };
 
 export default Skills;
