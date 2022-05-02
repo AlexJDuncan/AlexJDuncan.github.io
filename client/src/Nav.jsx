@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const CompStyle = styled.div`
@@ -23,10 +24,18 @@ const MenuStyle = styled.span`
 const Nav = () => {
   return (
     <CompStyle>
-      <MenuStyle>Home</MenuStyle>
-      <MenuStyle>Skills</MenuStyle>
-      <MenuStyle>Projects</MenuStyle>
-      <MenuStyle>Contact</MenuStyle>
+      <MenuStyle>
+        <Link to="/">Home</Link>
+      </MenuStyle>
+      <MenuStyle>
+        <Link to="Skills">Skills</Link>
+      </MenuStyle>
+      <MenuStyle>
+        <Link to="Projects">Projects</Link>
+      </MenuStyle>
+      <MenuStyle>
+        <Link to="Contact">Contact</Link>
+      </MenuStyle>
     </CompStyle>
   )
 }
