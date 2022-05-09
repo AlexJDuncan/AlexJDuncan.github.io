@@ -10,12 +10,14 @@ const Grid = styled.div`
 
 const GridElement = styled.div`
   grid-column: 3/4;
+  align-self: center;
 `;
 
 const SelfPic = styled.img`
   grid-column: 2/3;
-  width: 400px;
+  width: 350px;
   grid-row: 1/3;
+  justify-self: center;
 `;
 
 const Letter = styled.p `
