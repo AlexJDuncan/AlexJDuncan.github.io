@@ -73,9 +73,7 @@ const Entry = () => {
       <SelfPic alt="me" src={selfPic} />
       <GridElement>
         <Letter>A</Letter>
-        <NamePart>lex</NamePart>
-      </GridElement>
-      <GridElement>
+        <NamePart>lex</NamePart><br/>
         <Letter2>D</Letter2>
         <NamePart>uncan</NamePart>
       </GridElement>
