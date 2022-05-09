@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import selfPic from "./images/me2.jpeg";
 
 const Grid = styled.div`
   display: grid;
@@ -11,22 +12,10 @@ const GridElement = styled.div`
   grid-column: 3/4;
 `;
 
-const Intro1 = styled.p`
+const SelfPic = styled.img`
   grid-column: 2/3;
-  grid-row: 3/4;
-  margin-right: 1rem;
-  font-size: 1.5rem;
-  font-family: 'Lato', sans-serif;
-  text-align: justify;
-`;
-
-const Intro2 = styled.p`
-  grid-column: 3/4;
-  grid-row: 3/4;
-  margin-left: 1rem;
-  font-size: 1.5rem;
-  font-family: 'Lato', sans-serif;
-  text-align: justify;
+  width: 400px;
+  grid-row: 1/3;
 `;
 
 const Letter = styled.p `
@@ -60,9 +49,28 @@ const NamePart = styled.p`
   margin: .5rem;
 `;
 
+const Intro1 = styled.p`
+  grid-column: 2/3;
+  grid-row: 3/4;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+`;
+
+const Intro2 = styled.p`
+  grid-column: 3/4;
+  grid-row: 3/4;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+`;
+
 const Entry = () => {
   return (
     <Grid>
+      <SelfPic alt="me" src={selfPic} />
       <GridElement>
         <Letter>A</Letter>
         <NamePart>lex</NamePart>
@@ -71,8 +79,12 @@ const Entry = () => {
         <Letter2>D</Letter2>
         <NamePart>uncan</NamePart>
       </GridElement>
-          <Intro1>Hello, World!! I am a Full-Stack Engineer and Graphic Designer. I earned my BA in Visual Communication and Design: Graphic Design at the University of Northern Colorado graduating May 2018.  I recieved my engineering training from Hack Reactor graduating April 2021. My engineering skills apply to all aspects of web development from front-end to back-end.  Where as my design skills focus more on logos and print media. I am also well versed in designing and creating 3D models for 3D printing.</Intro1>
-          <Intro2>Looking for a fresh faced, new, excited, and motivated software engineer or designer? Looking for a quick learner that isn't afraid of a challenge? Then I am that person! Do you want to talk about my life or work? Shoot me a message on email or give me a call! I love talking about myself and my work, or other people and their work. I also just like to shoot the breeze from time to time. Hope to hear from you soon!</Intro2>
+      <Intro1>
+        Hello, World!! I am a Full-Stack Engineer and Graphic Designer. I earned my BA in Visual Communication and Design: Graphic Design at the University of Northern Colorado graduating May 2018.  I recieved my engineering training from Hack Reactor graduating April 2021. My engineering skills apply to all aspects of web development from front-end to back-end.  Where as my design skills focus more on logos and print media. I am also well versed in designing and creating 3D models for 3D printing.
+      </Intro1>
+      <Intro2>
+        Looking for a fresh faced, new, excited, and motivated software engineer or designer? Looking for a quick learner that isn't afraid of a challenge? Then I am that person! Do you want to talk about my life or work? Shoot me a message on email or give me a call! I love talking about myself and my work, or other people and their work. I also just like to shoot the breeze from time to time. Hope to hear from you soon!
+      </Intro2>
     </Grid>
   )
 }

@@ -23,11 +23,10 @@ module.exports = {
         },
       },
       {
-        test: /\.(png|jpeg|gif)$/i,
-        type: 'asset/resource',
+        test: /\.(png|jpeg|jpg|gif)$/,
         use: [
           {
-            loader: 'file-loader',
+            loader: 'url-loader',
           },
         ],
       },
