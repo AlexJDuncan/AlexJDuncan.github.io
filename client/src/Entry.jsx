@@ -7,14 +7,8 @@ const Grid = styled.div`
   grid-template-rows: 1fr;
 `;
 
-const InnerGrid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 2rem;
-`;
-
 const GridElement = styled.div`
-  grid-column: 2/3;
+  grid-column: 3/4;
 `;
 
 const Intro1 = styled.p`
@@ -43,7 +37,18 @@ const Letter = styled.p `
   color: #CA61E1;
   font-size: 10rem;
   margin: .5rem;
-  margin-left: 300px;
+  margin-left: 10px;
+`;
+
+const Letter2 = styled.p `
+  display: inline-block;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  font-family: 'Rowdies', cursive;
+  color: #CA61E1;
+  font-size: 10rem;
+  margin: .5rem;
+  margin-left: 100px;
 `;
 
 const NamePart = styled.p`
@@ -63,7 +68,7 @@ const Entry = () => {
         <NamePart>lex</NamePart>
       </GridElement>
       <GridElement>
-        <Letter>D</Letter>
+        <Letter2>D</Letter2>
         <NamePart>uncan</NamePart>
       </GridElement>
           <Intro1>Hello, World!! I am a Full-Stack Engineer and Graphic Designer. I earned my BA in Visual Communication and Design: Graphic Design at the University of Northern Colorado graduating May 2018.  I recieved my engineering training from Hack Reactor graduating April 2021. My engineering skills apply to all aspects of web development from front-end to back-end.  Where as my design skills focus more on logos and print media. I am also well versed in designing and creating 3D models for 3D printing.</Intro1>
