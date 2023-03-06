@@ -10,8 +10,16 @@ const Grid = styled.div`
 `;
 
 const GridElement = styled.div`
+  grid-column: 2/3;
+  text-align: right;
+  margin-right: 100px;
+`;
+
+const GridElement2 = styled.div`
   grid-column: 3/4;
-  align-self: center;
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 50px;
 `;
 
 const SelfPic = styled.img`
@@ -23,24 +31,13 @@ const SelfPic = styled.img`
 
 const Letter = styled.p `
   display: inline-block;
-  grid-column: 2/3;
+  grid-column: 1;
   grid-row: 1/2;
   font-family: 'Rowdies', cursive;
   color: #CA61E1;
   font-size: 10rem;
   margin: .5rem;
   margin-left: 10px;
-`;
-
-const Letter2 = styled.p `
-  display: inline-block;
-  grid-column: 2/3;
-  grid-row: 1/2;
-  font-family: 'Rowdies', cursive;
-  color: #CA61E1;
-  font-size: 10rem;
-  margin: .5rem;
-  margin-left: 100px;
 `;
 
 const NamePart = styled.p`
@@ -56,7 +53,7 @@ const Intro1 = styled.p`
   grid-column: 2/3;
   grid-row: 3/4;
   margin-right: 1rem;
-  font-size: 1.5rem;
+  font-size: 18px;
   font-family: 'Lato', sans-serif;
   text-align: justify;
 `;
@@ -65,7 +62,7 @@ const Intro2 = styled.p`
   grid-column: 3/4;
   grid-row: 3/4;
   margin-left: 1rem;
-  font-size: 1.5rem;
+  font-size: 18px;
   font-family: 'Lato', sans-serif;
   text-align: justify;
 `;
@@ -73,13 +70,15 @@ const Intro2 = styled.p`
 const Entry = () => {
   return (
     <Grid>
-      <SelfPic alt="me" src={selfPic} />
+      {/* <SelfPic alt="me" src={selfPic} /> */}
       <GridElement>
         <Letter>A</Letter>
-        <NamePart>lex</NamePart><br/>
-        <Letter2>D</Letter2>
-        <NamePart>uncan</NamePart>
+        <NamePart>lex</NamePart>
       </GridElement>
+      <GridElement2>
+        <Letter>D</Letter>
+        <NamePart>uncan</NamePart>
+      </GridElement2>
       <Intro1>
         Hello, World!! I am a Full-Stack Engineer and Graphic Designer. I earned my BA in Visual Communication and Design: Graphic Design at the University of Northern Colorado graduating May 2018.  I recieved my engineering training from Hack Reactor graduating April 2021. My engineering skills apply to all aspects of web development from front-end to back-end.  Where as my design skills focus more on logos and print media. I am also well versed in designing and creating 3D models for 3D printing.
       </Intro1>

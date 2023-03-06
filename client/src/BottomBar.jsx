@@ -6,6 +6,9 @@ const BarStyle = styled.div`
   text-align: center;
   display: flex;
   justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
 `;
 
 const Copyright = styled.p`
