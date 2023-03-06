@@ -6,6 +6,7 @@ const Grid = styled.div`
   display: grid;
   grid-template-columns: 1fr 2.5fr 2.5fr 1fr;
   grid-template-rows: 1fr;
+  background: #28292B;
 `;
 
 const GridElement = styled.div`
@@ -15,7 +16,7 @@ const GridElement = styled.div`
 
 const SelfPic = styled.img`
   grid-column: 2/3;
-  width: 350px;
+  width: 300px;
   grid-row: 1/3;
   justify-self: center;
 `;
