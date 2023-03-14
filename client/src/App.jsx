@@ -6,6 +6,7 @@ import BottomBar from './BottomBar';
 import Entry from "./Entry";
 import Contact from "./Contact";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 const PageStyle = styled.div`
 height: 100%;
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/" element={<Entry />} />
         <Route path="Contact" element={<Contact />} />
         <Route path="Skills" element={<Skills />} />
+        <Route path="Projects" element={<Projects />} />
       </Routes>
       <BottomBar />
     </PageStyle>
