@@ -7,18 +7,19 @@ const Grid = styled.div`
   grid-template-columns: 1fr 2.5fr 2.5fr 1fr;
   grid-template-rows: 1fr;
   background: #28292B;
+  grid-gap: 25px;
 `;
 
 const CardLeft = styled.span`
   grid-column: 2/3;
   border: 2px solid #CA61E1;
-  height: 250px;
+  height: 275px;
 `;
 
 const CardRight = styled.span`
   grid-column: 3/4;
   border: 2px solid #CA61E1;
-  height: 250px;
+  height: 275px;
 `;
 
 const Title = styled.h1`
@@ -40,6 +41,14 @@ const Descrip = styled.p`
   width: 300px;
 `;
 
+const Deployed = styled.a`
+  display: block;
+  color: #CA61E1;
+  font-family: 'Lato', sans-serif;
+  margin: 10px 0px 0px 10px;
+  width: 300px;
+`;
+
 const Projects = () => {
   return (
     <Grid>
@@ -47,6 +56,7 @@ const Projects = () => {
         <Title>Alliance Drydocks</Title>
         <Thumbnail src={drydocks_home} alt="alliance_drydocks_home_page" />
         <Descrip>Alliance Drydocks is my personal pet project. It is a shipbuilder application for the online game Star Trek Online. It is still under contruction but shows some of my skills as an engineer. I created it using Javascript and React for the front end and Node for the server. It currently has no backend architecture and is loading all info from dummy data.</Descrip>
+        <Deployed href="https://monkeymedic26.github.io/Alliance_Drydocks/" target="_blank">Alliance Drydocks Home</Deployed>
       </CardLeft>
       <CardRight>
         <Title>JA Scheduler</Title>
