@@ -24,6 +24,7 @@ const Projects = () => {
     <Grid>
       <CardLeft>
         <Title>Alliance Drydocks</Title>
+        <img src="./images/Alliance_Drydocks/drydocks_home.jpg" alt="alliance_drydocks_home_page" />
 
       </CardLeft>
     </Grid>
