@@ -50,7 +50,7 @@ const Projects = () => {
       </CardLeft>
       <CardRight>
         <Title>JA Scheduler</Title>
-        <Descrip>JA Scheduler is an internal application I workd on during my time with Rural Sourcing. Due to company policy I am unfortunately unable to share any images or code of this program. The application is designed to be an availablity viewer showing the availability on a 5 day calander.</Descrip>
+        <Descrip>JA Scheduler is an internal application I workd on during my time with Rural Sourcing. Due to company policy I am unfortunately unable to share any images or code of this program. The application is designed to be an availablity viewer showing the availability on a 5 day calander. Click on title for more details on application.</Descrip>
       </CardRight>
     </Grid>
   )
