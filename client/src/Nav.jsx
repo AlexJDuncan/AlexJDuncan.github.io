@@ -27,37 +27,84 @@ const Nav = ()  => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{background: "white", boxShadow: "none"}}>
       <Container maxWidth="xl">
-        <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+        <Toolbar disableGutters sx={{justifyContent: "space-around"}}>
           <Typography
-            variant="h6"
+            variant="h5"
             noWrap
-            component="a"
-            href="/"
+            component="h5"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: 'black',
               textDecoration: 'none',
             }}
           >
             Alex Duncan
           </Typography>
+          <Box sx={{display: "flex", flexFlow: "row"}}>
             <NavLink to="/">
-              <li>
+              <Typography
+                variant="h6"
+                noWrap
+                component="a"
+                href="/"
+                sx={{
+                  mr: 2,
+                  display: { xs: 'none', md: 'flex' },
+                  fontFamily: 'monospace',
+                  fontWeight: 700,
+                  letterSpacing: '.3rem',
+                  color: 'black',
+                  textDecoration: 'none',
+                }}
+              >
                 Home
-              </li>
+              </Typography>
             </NavLink>
             <NavLink to="Projects">
-              <li>
+              <Typography
+                  variant="h6"
+                  noWrap
+                  component="a"
+                  href="/"
+                  sx={{
+                    mr: 2,
+                    display: { xs: 'none', md: 'flex' },
+                    fontFamily: 'monospace',
+                    fontWeight: 700,
+                    letterSpacing: '.3rem',
+                    color: 'black',
+                    textDecoration: 'none',
+                  }}
+              >
                 Projects
-              </li>
+              </Typography>
             </NavLink>
+            <NavLink to="Contact">
+              <Typography
+                  variant="h6"
+                  noWrap
+                  component="a"
+                  href="/"
+                  sx={{
+                    mr: 2,
+                    display: { xs: 'none', md: 'flex' },
+                    fontFamily: 'monospace',
+                    fontWeight: 700,
+                    letterSpacing: '.3rem',
+                    color: 'black',
+                    textDecoration: 'none',
+                  }}
+              >
+                Contact
+              </Typography>
+            </NavLink>
+          </Box>
         </Toolbar>
       </Container>
     </AppBar>
