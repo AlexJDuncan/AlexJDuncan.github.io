@@ -1,28 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 
-const BarStyle = styled.div`
-  background: #28292B;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-`;
 
-const Copyright = styled.p`
-  font-size: 1rem;
-  color: #CA61E1;
-  align-self: self-end;
-`;
 
-const Links = styled.a`
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
-`;
 
 const BottomBar = () => {
   return(
