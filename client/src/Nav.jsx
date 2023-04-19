@@ -16,15 +16,6 @@ const pages = ['Home', 'Projects', 'Contact'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const Nav = ()  => {
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
-  };
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
 
   return (
     <AppBar position="static" sx={{background: "white", boxShadow: "none"}}>
@@ -51,8 +42,7 @@ const Nav = ()  => {
               <Typography
                 variant="h6"
                 noWrap
-                component="a"
-                href="/"
+                component="h6"
                 sx={{
                   mr: 2,
                   display: { xs: 'none', md: 'flex' },
@@ -70,8 +60,7 @@ const Nav = ()  => {
               <Typography
                   variant="h6"
                   noWrap
-                  component="a"
-                  href="/"
+                  component="h6"
                   sx={{
                     mr: 2,
                     display: { xs: 'none', md: 'flex' },
@@ -89,8 +78,7 @@ const Nav = ()  => {
               <Typography
                   variant="h6"
                   noWrap
-                  component="a"
-                  href="/"
+                  component="h6"
                   sx={{
                     mr: 2,
                     display: { xs: 'none', md: 'flex' },

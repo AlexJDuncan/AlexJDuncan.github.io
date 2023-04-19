@@ -1,9 +1,15 @@
-import React from "react";
-import drydocks_home from "./images/Alliance_Drydocks/drydocks_home.jpg";
+import React from 'react';
+import Container from '@mui/material/Container';
+import ProjectCard from './components/ProjectCard';
+import ProjectData from './components/ProjectData';
 
 const Projects = () => {
   return (
-    <div>Hello World</div>
+    <Container>
+      {ProjectData.map((info) => (
+        <ProjectCard key={info.title} info={info} />
+      ))}
+    </Container>
   )
 }
 

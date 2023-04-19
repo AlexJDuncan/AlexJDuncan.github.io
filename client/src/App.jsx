@@ -4,6 +4,7 @@ import Nav from './Nav';
 import Entry from './Entry';
 import Contact from './Contact';
 import Projects from  './Projects';
+const ProjectData = './components/ProjectData';
 
 
 const App = () => {
