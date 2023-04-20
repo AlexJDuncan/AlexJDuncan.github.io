@@ -4,7 +4,7 @@ import Nav from './Nav';
 import Entry from './Entry';
 import Contact from './Contact';
 import Projects from  './Projects';
-const ProjectData = './components/ProjectData';
+import BottomBar from './BottomBar';
 
 
 const App = () => {
@@ -17,6 +17,7 @@ const App = () => {
         <Route path="Contact" element={<Contact />} />
         <Route path="Projects" element={<Projects />} />
       </Routes>
+    <BottomBar />
     </div>
     // </PageStyle>
   )
