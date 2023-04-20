@@ -5,11 +5,12 @@ import Entry from './Entry';
 import Contact from './Contact';
 import Projects from  './Projects';
 import BottomBar from './BottomBar';
+import { Container } from '@mui/material';
 
 
 const App = () => {
   return (
-    <div>
+  <Container sx={{height: "100vh", display: "grid", gridTemplateRows: "1fr 4fr 1fr"}}>
     <Nav />
       <Routes>
         <Route path="/" element={<Entry />} />
@@ -18,7 +19,7 @@ const App = () => {
         <Route path="Projects" element={<Projects />} />
       </Routes>
     <BottomBar />
-    </div>
+  </Container>
     // </PageStyle>
   )
 }

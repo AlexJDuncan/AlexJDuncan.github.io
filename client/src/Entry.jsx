@@ -5,7 +5,7 @@ import selfPic from "./images/me2.jpeg";
 
 const Entry = () => {
   return (
-    <Container maxWidth="xl" sx={{display: "flex", flexFlow: "column",  height: "90vh", alignItems: "center", justifyContent: "center"}}>
+    <Container maxWidth="xl" sx={{display: "flex", flexFlow: "column", alignItems: "center", justifyContent: "center"}}>
       <img src={selfPic} alt="Alex Duncan" width="250px" />
       <Typography variant="h6" component="h6">Hello, I'm Alex Duncan</Typography>
       <Typography variant="h5" component="h5">Software Engineer | Graphic Designer</Typography>
