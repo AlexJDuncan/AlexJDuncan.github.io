@@ -2,7 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
 
-const PORT = 3003;
+const PORT = 3004;
 const PUBLIC_DIR = path.resolve(__dirname, "..", "docs");
 
 const app = express();
