@@ -5,7 +5,7 @@ import Link from '@mui/material/Link';
 
 const Contact = () => {
   return (
-    <Container sx={{display: "flex", flexFlow: "column", alignItems: "center", justifyContent: "space-around"}}>
+    <Container sx={{display: "flex", flexFlow: "column", alignContent: "center", justifyContent: "space-around"}}>
         <Typography variant="h4" component="h4">Phone</Typography>
         <Typography  variant="h5" component="h5">(303) 330-5272</Typography>
         <Typography variant="h4" component="h4">E-Mail</Typography>
