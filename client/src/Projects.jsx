@@ -5,7 +5,7 @@ import ProjectData from './components/ProjectData';
 
 const Projects = () => {
   return (
-    <Container>
+    <Container sx={{display: "flex", flexFlow: "wrap", gap: "20px"}}>
       {ProjectData.map((info) => (
         <ProjectCard key={info.title} info={info} />
       ))}
