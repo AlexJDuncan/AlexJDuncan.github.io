@@ -2,7 +2,6 @@ import React from "react";
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import selfPic from "./images/me2.jpeg";
 import selfPic2 from './images/me3.jpg';
 
 const Entry = () => {

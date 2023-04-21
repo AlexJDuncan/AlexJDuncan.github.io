@@ -10,7 +10,6 @@ const Nav = ()  => {
 
   return (
     <AppBar position="static" sx={{background: "white", boxShadow: "none"}}>
-      <Container maxWidth="xl">
         <Toolbar disableGutters sx={{justifyContent: "space-around"}}>
           <Typography
             variant="h5"
@@ -85,7 +84,6 @@ const Nav = ()  => {
             </NavLink>
           </Box>
         </Toolbar>
-      </Container>
     </AppBar>
   );
 }

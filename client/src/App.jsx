@@ -10,7 +10,7 @@ import { Container } from '@mui/material';
 
 const App = () => {
   return (
-  <Container sx={{height: "100vh", display: "grid", gridTemplateRows: "1fr 4fr 1fr"}}>
+  <Container maxWidth="xl" sx={{height: "100vh", display: "grid", gridTemplateRows: "1fr 4fr 1fr"}}>
     <Nav />
       <Routes>
         <Route path="/" element={<Entry />} />
