@@ -10,7 +10,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 const ProjectCard = ({ info }) => {
   return (
-    <Card sx={{ maxWidth: 345, boxShadow: "10px 5px 5px darkgray" }}>
+    <Card sx={{ maxWidth: 375, boxShadow: "10px 7.5px 5px darkgray" }}>
       <CardHeader
         action={
           <IconButton aria-label="settings">
