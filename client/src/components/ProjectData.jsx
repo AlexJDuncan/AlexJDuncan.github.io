@@ -9,6 +9,15 @@ const ProjectData = [
     deployment: "https://alexjduncan.github.io/"
   },
   {
+    title: "JA Availability Tracker",
+    subtitle: "Availability Tracking Web Application",
+    image: null,
+    imageTitle: "JA Availability Home Page",
+    descrip: "This project was developed for Rural Sourcing Inc. (now known as Sparq). It is an application to assist in the tracking of the availability of all Junior Associates in the Junior Associate program. My section mainly pertains to the input form for each users information and availability.",
+    github: null,
+    deployment: "Not Currently Deployed"
+  },
+  {
     title: "Alliance Drydocks",
     subtitle: "A ship building web application",
     image: "https://i.ibb.co/F6Dk9DS/drydocks-home.jpg",
