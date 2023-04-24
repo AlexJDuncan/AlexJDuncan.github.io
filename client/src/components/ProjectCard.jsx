@@ -8,16 +8,12 @@ import Typography from '@mui/material/Typography';
 import Link from  '@mui/material/Link';
 
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import { NavLink } from 'react-router-dom';
 
 const ProjectCard = ({ info }) => {
   return (
     <Card sx={{ maxWidth: 365, boxShadow: "10px 7.5px 5px darkgray", background: "linen" }}>
       <CardHeader
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title={info.title}
         subheader={info.subtitle}
       />
@@ -37,6 +33,7 @@ const ProjectCard = ({ info }) => {
           :
           <Typography variant="body2" color="text.secondary">Site: <Link  variant="body2" href={info.deployment} target="_blank">{info.title}</Link></Typography>
         }
+        <NavLink to={info.path} >Project Page {info.title}</NavLink>
       </CardContent>
     </Card>
   );
