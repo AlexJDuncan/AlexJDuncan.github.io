@@ -8,6 +8,7 @@ import BottomBar from './BottomBar';
 import OverdriveOutfits from './components/Project Detail Pages/OverdriveOutfits';
 import Smove from './components/Project Detail Pages/Smove';
 import AllianceDrydocks from './components/Project Detail Pages/AllianceDrydocks';
+import JAAvailTracker from './components/Project Detail Pages/JAAvailTracker';
 import { Container } from '@mui/material';
 
 
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="Projects/OverdriveOutfits" element={<OverdriveOutfits />} />
         <Route path="Projects/Smove" element={<Smove />} />
         <Route path="Projects/AllianceDrydocks" element={<AllianceDrydocks />} />
+        <Route path="Projects/JAAvailTracker" element={<JAAvailTracker />} />
       </Routes>
     <BottomBar />
   </Container>
