@@ -2,17 +2,17 @@ const ProjectData = [
   {
     title: "Portfolio",
     subtitle: "Presentation of myself and my work",
-    image: "https://i.ibb.co/F6Dk9DS/drydocks-home.jpg",
+    image: "https://i.ibb.co/QQNdGJw/Portfolio-Home.jpg",
     imageTitle: "Portfolio Home Page",
     descrip: "This porfolio was creating using Javascript and React as the base. For navigation I utilizes React-Router and for styling I am using MaterialUI V5.",
     github: "https://github.com/AlexJDuncan/AlexJDuncan.github.io",
     deployment: "https://alexjduncan.github.io/",
-    path: "OverdriveOutfits"
+    path: "Portfolio"
   },
   {
     title: "JA Availability Tracker",
     subtitle: "Availability Tracking Web Application",
-    image: null,
+    image: "https://i.ibb.co/BPvGb99/No-Image-01.png",
     imageTitle: "JA Availability Home Page",
     descrip: "This project was developed for Rural Sourcing Inc. (now known as Sparq). It is an application to assist in the tracking of the availability of all Junior Associates in the Junior Associate program. My section mainly pertains to the input form for each users information and availability.",
     github: null,
@@ -32,7 +32,7 @@ const ProjectData = [
   {
     title: "Smove",
     subtitle: "A local moving assistance application",
-    image: "https://i.ibb.co/F6Dk9DS/drydocks-home.jpg",
+    image: "https://i.ibb.co/7K9GgTm/Smove-Home.jpg",
     imageTitle: "Smove Home Page",
     descrip: "This was my  groups capstone project during my courses in Hack Reactors Software Engineering Immersive. We used JavaScript, React, and a Node Server for the front end. For the back end we used MongoDB.",
     github: "https://github.com/BlueOcean-Smove/Smove/tree/main/client/components/LocalCompanies",
@@ -42,7 +42,7 @@ const ProjectData = [
   {
     title: "Overdrive Outfits",
     subtitle: "Ecommerce Website",
-    image: "https://i.ibb.co/F6Dk9DS/drydocks-home.jpg",
+    image: "https://i.ibb.co/nPn06Yq/Product-Description.jpg",
     imageTitle: "Overdrive Outfits Home Page",
     descrip: "This was my first group project during my courses in Hack Reactors Software Engineering Immersive. We used JavaScript, React, and a Node Serverfor the front end. For the back end we were pprovided a third party API to connect to our server.",
     github: "https://github.com/Allosaurus-Overdrive/catwalk/tree/main/client/components/Product_Overview",

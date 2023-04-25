@@ -9,7 +9,8 @@ import OverdriveOutfits from './components/Project Detail Pages/OverdriveOutfits
 import Smove from './components/Project Detail Pages/Smove';
 import AllianceDrydocks from './components/Project Detail Pages/AllianceDrydocks';
 import JAAvailTracker from './components/Project Detail Pages/JAAvailTracker';
-import { Container } from '@mui/material';
+import Portfolio from './components/Project Detail Pages/Portfolio';
+import Container from '@mui/material/Container';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="Projects/Smove" element={<Smove />} />
         <Route path="Projects/AllianceDrydocks" element={<AllianceDrydocks />} />
         <Route path="Projects/JAAvailTracker" element={<JAAvailTracker />} />
+        <Route path="Projects/Portfolio" element={<Portfolio />} />
       </Routes>
     <BottomBar />
   </Container>
