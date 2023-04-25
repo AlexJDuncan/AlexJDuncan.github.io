@@ -22,7 +22,7 @@ const App = () => {
         <Route path="Projects" element={<Projects />} />
         <Route path="Projects/OverdriveOutfits" element={<OverdriveOutfits />} />
         <Route path="Projects/Smove" element={<Smove />} />
-        <Route path="AllianceDrydocks" element={<AllianceDrydocks />} />
+        <Route path="Projects/AllianceDrydocks" element={<AllianceDrydocks />} />
       </Routes>
     <BottomBar />
   </Container>
