@@ -7,6 +7,7 @@ import Projects from  './Projects';
 import BottomBar from './BottomBar';
 import OverdriveOutfits from './components/Project Detail Pages/OverdriveOutfits';
 import Smove from './components/Project Detail Pages/Smove';
+import AllianceDrydocks from './components/Project Detail Pages/AllianceDrydocks';
 import { Container } from '@mui/material';
 
 
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="Projects" element={<Projects />} />
         <Route path="Projects/OverdriveOutfits" element={<OverdriveOutfits />} />
         <Route path="Projects/Smove" element={<Smove />} />
+        <Route path="AllianceDrydocks" element={<AllianceDrydocks />} />
       </Routes>
     <BottomBar />
   </Container>

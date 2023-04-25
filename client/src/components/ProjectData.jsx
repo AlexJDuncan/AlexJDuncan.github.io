@@ -27,7 +27,7 @@ const ProjectData = [
     descrip: "A ship building web application for the MMO Star Trek Online. It uses JavaScript and React as the base for the frontend. It currently has no backend as I use it as a playground for expirementing with new technologies.",
     github: "https://github.com/AlexJDuncan/Alliance_Drydocks",
     deployment: "https://alexjduncan.github.io/Alliance_Drydocks/",
-    path: "OverdriveOutfits"
+    path: "AllianceDrydocks"
   },
   {
     title: "Smove",
